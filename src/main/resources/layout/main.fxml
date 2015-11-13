@@ -1,0 +1,24 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Separator?>
+<BorderPane fx:controller="com.futureprocessing.fxpaint.controllers.WindowController" xmlns:fx="http://javafx.com/fxml">
+    <stylesheets>
+        <URL value="@../css/style.css"/>
+    </stylesheets>
+    <top>
+        <fx:include fx:id="menuBar" source="menu-bar.fxml"/>
+    </top>
+    <left>
+        <VBox spacing="5" id="leftBar">
+            <fx:include fx:id="tool" source="toolbar/tool-box.fxml"/>
+            <fx:include fx:id="color" source="toolbar/color-picker.fxml"/>
+        </VBox>
+    </left>
+    <center>
+        <Pane fx:id="canvasContainer">
+            <fx:include fx:id="canvas" source="canvas/canvas.fxml"/>
+        </Pane>
+    </center>
+</BorderPane>

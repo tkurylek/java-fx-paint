@@ -1,0 +1,120 @@
+/* MenuBar */
+/* file */
+#file-menu > .label {
+    -fx-graphic: url('../img/menubar/file.png');
+}
+
+.open-icon > .label {
+    -fx-graphic: url('../img/menubar/file/open.png');
+}
+
+.save-icon > .label {
+    -fx-graphic: url('../img/menubar/file/save.png');
+}
+
+.exit-icon > .label {
+    -fx-graphic: url('../img/menubar/file/exit.png');
+}
+
+/* edit */
+#edit-menu > .label {
+    -fx-graphic: url('../img/menubar/edit.png');
+}
+
+.undo-icon > .label {
+    -fx-graphic: url('../img/menubar/edit/undo.png');
+}
+
+.redo-icon > .label {
+    -fx-graphic: url('../img/menubar/edit/redo.png');
+}
+
+.rotate-icon > .label {
+    -fx-graphic: url('../img/menubar/edit/rotate.png');
+}
+
+.rotate-left-icon > .label {
+    -fx-graphic: url('../img/menubar/edit/rotate/rotate-left.png');
+}
+
+.rotate-right-icon > .label {
+    -fx-graphic: url('../img/menubar/edit/rotate/rotate-right.png');
+}
+
+.flip-horizontally-icon > .label {
+    -fx-graphic: url('../img/menubar/edit/rotate/flip-h.png');
+}
+
+.flip-vertically-icon > .label {
+    -fx-graphic: url('../img/menubar/edit/rotate/flip-v.png');
+}
+
+/* about */
+#about-menu > .label {
+    -fx-graphic: url('../img/menubar/about.png');
+}
+
+/* Tools */
+.tool {
+    -fx-min-height: 60px;
+    -fx-min-width: 60px;
+    -fx-font-size: 10px;
+    -fx-background-color: linear-gradient(#ffffff, #e6e6e6);
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-color: #cccccc;
+}
+
+.tool:selected {
+    -fx-background-color: linear-gradient(#cccccc, #ffffff);
+    -fx-border-color: #cccccc;
+}
+
+#line {
+    -fx-graphic: url('../img/tools/line.png');
+}
+
+#oval {
+    -fx-graphic: url('../img/tools/oval.png');
+}
+
+#pencil {
+    -fx-graphic: url('../img/tools/pencil.png');
+}
+
+#rectangle {
+    -fx-graphic: url('../img/tools/rectangle.png');
+}
+
+#bucket {
+    -fx-graphic: url('../img/tools/bucket-fill.png');
+}
+
+#eraser {
+    -fx-graphic: url('../img/tools/eraser.png');
+}
+
+#canvas {
+    -fx-background-color: #FFFFFF;
+}
+
+/* Colors */
+.color {
+    -fx-min-height: 30px;
+    -fx-min-width: 30px;
+    -fx-background-radius: 20;
+}
+
+.color-selected {
+    -fx-min-height: 60px;
+    -fx-min-width: 60px;
+}
+
+.separator {
+    -fx-padding: 10px;
+    -fx-pref-width: 70px;
+}
+
+#leftBar, #menuBar {
+    -fx-background-color: aliceblue;
+}

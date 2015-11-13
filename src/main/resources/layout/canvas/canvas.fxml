@@ -1,0 +1,7 @@
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.Pane?>
+<Pane fx:controller="com.futureprocessing.fxpaint.controllers.CanvasController" onMousePressed="#onMousePressed"
+      onMouseDragged="#onMouseDragged" onMouseReleased="#onMouseReleased" xmlns:fx="http://javafx.com/fxml">
+    <Canvas fx:id="sketchCanvas"/>
+    <Canvas fx:id="drawCanvas"/>
+</Pane>

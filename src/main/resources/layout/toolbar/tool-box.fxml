@@ -1,0 +1,16 @@
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.FlowPane?>
+<FlowPane prefWrapLength="70" alignment="TOP_CENTER" fx:controller="com.futureprocessing.fxpaint.controllers.ToolController"
+          xmlns:fx="http://javafx.com/fxml">
+    <fx:define>
+        <ToggleGroup fx:id="toolsGroup"/>
+    </fx:define>
+    <ToggleButton text="%toolBox.pencil" id="pencil" toggleGroup="$toolsGroup" styleClass="tool" contentDisplay="TOP" />
+    <ToggleButton text="%toolBox.line" id="line" toggleGroup="$toolsGroup" styleClass="tool" contentDisplay="TOP"/>
+    <ToggleButton text="%toolBox.oval" id="oval" toggleGroup="$toolsGroup" styleClass="tool" contentDisplay="TOP"/>
+    <ToggleButton text="%toolBox.rectangle" id="rectangle" toggleGroup="$toolsGroup" styleClass="tool"
+                  contentDisplay="TOP"/>
+    <ToggleButton text="%toolBox.bucket" id="bucket" toggleGroup="$toolsGroup" styleClass="tool" contentDisplay="TOP"/>
+    <ToggleButton text="%toolBox.eraser" id="eraser" toggleGroup="$toolsGroup" styleClass="tool" contentDisplay="TOP"/>
+</FlowPane>

@@ -1,0 +1,19 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.control.Separator?>
+<FlowPane prefWrapLength="60" alignment="TOP_CENTER" fx:controller="com.futureprocessing.fxpaint.controllers.ColorController"
+          xmlns:fx="http://javafx.com/fxml">
+    <fx:define>
+        <ToggleGroup fx:id="colorsGroup" />
+    </fx:define>
+    <ToggleButton id="red" toggleGroup="$colorsGroup" styleClass="color" style="-fx-background-color: red"/>
+    <ToggleButton id="green" toggleGroup="$colorsGroup" styleClass="color" style="-fx-background-color: green"/>
+    <ToggleButton id="blue" toggleGroup="$colorsGroup" styleClass="color" style="-fx-background-color: blue"/>
+    <ToggleButton id="aqua" toggleGroup="$colorsGroup" styleClass="color" style="-fx-background-color: aqua"/>
+    <ToggleButton id="black" toggleGroup="$colorsGroup" styleClass="color" style="-fx-background-color: black"/>
+    <ToggleButton id="orange" toggleGroup="$colorsGroup" styleClass="color" style="-fx-background-color: orange"/>
+    <Separator styleClass="separator"/>
+    <Button fx:id="selectedColorButton" styleClass="color-selected" style="-fx-background-color: black"/>
+</FlowPane>

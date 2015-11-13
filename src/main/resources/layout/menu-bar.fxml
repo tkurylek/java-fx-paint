@@ -1,0 +1,22 @@
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<MenuBar fx:id="menuBar" fx:controller="com.futureprocessing.fxpaint.controllers.MenuBarController" xmlns:fx="http://javafx.com/fxml">
+    <Menu fx:id="fileMenu" text="File">
+        <MenuItem id="open" styleClass="open-icon" text="%menuBar.open" />
+        <MenuItem id="save" styleClass="save-icon" text="%menuBar.save" />
+        <MenuItem id="exit" styleClass="exit-icon" text="%menuBar.exit" />
+    </Menu>
+    <Menu fx:id="editMenu" text="%menuBar.edit">
+        <MenuItem id="undo" styleClass="undo-icon" text="%menuBar.undo"/>
+        <MenuItem id="redo" styleClass="redo-icon" text="%menuBar.redo"/>
+        <Menu fx:id="rotateMenu" styleClass="rotate-icon" text="%menuBar.rotate">
+            <MenuItem id="rotateRight90" styleClass="rotate-right-icon" text="%menuBar.rotateRight90"/>
+            <MenuItem id="rotateLeft90" styleClass="rotate-left-icon" text="%menuBar.rotateLeft90"/>
+            <MenuItem id="rotate180" styleClass="rotate-icon" text="%menuBar.rotate180"/>
+            <MenuItem id="flipHorizontally" styleClass="flip-horizontally-icon" text="%menuBar.flipHorizontally"/>
+            <MenuItem id="flipVertically" styleClass="flip-vertically-icon" text="%menuBar.flipVertically"/>
+        </Menu>
+    </Menu>
+    <Menu id="aboutMenu" text="%menuBar.about"/>
+</MenuBar>
