@@ -1,4 +1,6 @@
 # FxPaint
+[![Build Status](https://travis-ci.org/tkurylek/java-fx-paint.svg?branch=master)](https://travis-ci.org/tkurylek/java-fx-paint)
+
 ## About
 Simple painting/sketching application written in javaFx. Made purely for self-improvement and educational purposes.
 
